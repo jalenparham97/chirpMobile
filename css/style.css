@@ -7,7 +7,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-  nav, section {
+  nav, section, .scroll {
     margin-left: 20px;
     margin-right: 20px;
   }
