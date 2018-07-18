@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-width: 480px) {
   nav, section {
     margin-left: 20px;
-    width: 80%;
+    margin-right: 20px;
   }
 
   nav {
@@ -31,6 +34,10 @@
     text-decoration: none;
   }
 
+  h5 {
+    font-size: 18px;
+  }
+
   .company-statement {
     margin-top: 20px;
     padding-left: 25px;
@@ -39,10 +46,12 @@
   }
 
   .button {
+    display: block;
     background: #000;
-    padding: 10px;
     border-radius: 20px;
+    padding: 10px;
     color: #fff;
+    text-align: center;
   }
 
   .scroll {
