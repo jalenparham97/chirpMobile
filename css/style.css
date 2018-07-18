@@ -60,7 +60,7 @@
 }
 
 @media only screen and (min-width: 650px) {
-  nav {
+  nav, section {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -83,6 +83,7 @@
 
   section {
     display: flex;
+    margin-top: 150px;
   }
 
   .nav-item {
@@ -95,4 +96,27 @@
     padding: 10px;
     border-radius: 20px;
   }
+
+  .column {
+    width: 50%;
+  }
+
+  .circle-1 {
+    width: 100px;
+    height: 100px;
+    background: rgba(247, 136, 167, 0.6);
+  }
+
+  .circle-2 {
+    width: 100px;
+    height: 100px;
+    background: rgba(207, 130, 213, 0.6);
+  }
+  
+  .circle-3 {
+    width: 100px;
+    height: 100px;
+    background: rgba(247, 193, 162, 0.7);
+  }
 }
+
