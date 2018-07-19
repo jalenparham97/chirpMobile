@@ -12,7 +12,7 @@
     margin-right: 20px;
   }
 
-  nav {
+  nav {z
     margin-top: 20px;
   }
 
@@ -61,8 +61,8 @@
 
 @media only screen and (min-width: 650px) {
   nav, section {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   nav {
@@ -83,6 +83,7 @@
 
   section {
     display: flex;
+    justify-content: space-between;
     margin-top: 150px;
   }
 
@@ -98,25 +99,61 @@
   }
 
   .column {
-    width: 50%;
+    width: 30%;
+  }
+
+  .column-2 {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
   }
 
   .circle-1 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
     background: rgba(247, 136, 167, 0.6);
+    position: absolute;
+    top: 0;
+    right: 70px;
   }
 
   .circle-2 {
     width: 100px;
     height: 100px;
+    border-radius: 50px;
     background: rgba(207, 130, 213, 0.6);
+    position: absolute;
+    top: 50px;
   }
   
   .circle-3 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
     background: rgba(247, 193, 162, 0.7);
+    position: absolute;
+    top: 120px;
+  }
+
+  .company-statement {
+    margin-top: 20px;
+    padding-left: 25px;
+    border-left: rgb(138, 138, 142, .6) solid 3px;
+    color: #8a8a8e;
+  }
+
+  .scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .scroll {
+    margin-top: 5rem;
   }
 }
 
